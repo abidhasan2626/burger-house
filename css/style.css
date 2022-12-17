@@ -1,0 +1,448 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	 font-family: 'Alfa Slab One', cursive;
+}
+
+p {
+
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	width: 100%;
+	background: url("../images/bg.png") center top no-repeat;
+	background-size: cover;
+	padding: 25px 0px;
+
+}
+
+.header .menu .col-lg-2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header .menu .info {
+	width: 100%;
+	text-align: right;
+	margin-left: -20px;
+}
+
+.header .menu .info img {
+	margin-right: 10px;
+}
+
+.header .menu .info p {
+	color: #3d2514;
+	font-size: 14px;
+	line-height: 24px;
+	font-family: Montserrat;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.navbar-nav .nav-item .nav-link {
+	color: #3d2514;
+	font-size: 15px;
+	line-height: 25px;
+	font-family: Bebas Neue;
+	font-weight: bold;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	margin: 0px 0px 0px 20px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+	color: #bf2222;
+}
+
+.header .banner {
+	width: 100%;
+}
+
+.header .banner .text {
+	margin-top: 100px;
+}
+
+.header .banner .text p {
+	color: #3d2514;
+	font-size: 14px;
+	line-height: 24px;
+	font-family: Bebas Neue;
+	letter-spacing: 1px;
+}
+
+.header .banner .text p span {
+	padding: 10px;
+	border: 2px dashed #3d2514;
+}
+
+.header .banner .text h1 {
+	color: #3d2514;
+	font-size: 100px;
+	line-height: 110px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 2px 2px #FFF;
+}
+
+.header .banner .text h4 {
+	color: #3d2514;
+	font-size: 50px;
+	line-height: 60px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 2px 2px #FFF;
+}
+
+/* Popular Section CSS */
+
+.popular {
+	width: 100%;
+	padding: 50px 0px;
+}
+
+.popular .card {
+	border: 0px;
+	margin: 0px 0px 32px;
+}
+
+.popular .card .card-title {
+	color: #FFF;
+	font-size: 20px;
+	line-height: 30px;
+	font-family: Bebas Neue;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.popular .card .card-description {
+	color: #FFF;
+	font-size: 35px;
+	line-height: 45px;
+	font-family: Bebas Neue;
+	text-transform: uppercase;
+}
+
+/*Choose Section CSS*/
+
+.choose {
+	width: 100%;
+	padding: 0px 0px 32px 0px;
+}
+
+.choose .title {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.choose .title h6 {
+	color: #3d2514;
+	font-size: 20px;
+	line-height: 30px;
+	font-family: Bebas Neue;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.choose .title h6 span {
+	background: #ffc045;
+	padding: 10px;
+}
+
+.choose .title h2 {
+	color: #3d2514;
+	font-size: 35px;
+	line-height: 45px;
+	font-family: Alfa Slab One;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+.choose .title p {
+	color: #3d2514;
+	font-size: 15px;
+	line-height: 25px;
+	font-family: Montserrat;
+	font-weight: regular;
+	text-align: center;
+}
+
+.choose .inner-choose {
+	width: 100%;
+	padding: 50px 25px;
+	text-align: center;
+}
+
+.choose .inner-choose h3 {
+	color: #3d2514;
+	font-size: 30px;
+	line-height: 40px;
+	font-family: Bebas Neue;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+
+.choose .inner-choose p {
+	color: #3d2514;
+	font-size: 15px;
+	line-height: 25px;
+	font-family: Montserrat;
+	font-weight: regular;
+	text-align: center;
+}
+
+.choose .inner-choose .order-btn {
+	background: red;
+	border-radius: 0;
+	padding: 8px 30px;
+	color: #fff;
+	font-size: 15px;
+	line-height: 25px;
+	font-family: Alfa Slab One;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: all 0.5s linear;
+
+}
+
+.choose .inner-choose .order-btn:hover {
+	background: #ffc045;
+}
+
+/* Slider Section CSS */
+
+.slider {
+	width: 100%;
+	padding: 30px 0px 50px 0px;
+}
+
+.slider .owl-theme {
+	width: 100%;
+	padding: 40px;
+	box-shadow: 10px 15px 25px #cccccc;
+}
+
+/*.slider .owl-theme img {
+	border-radius: 100% 0% 100% 0% / 26% 74% 26% 74% ;
+}*/
+.slider h6 {
+	color: #3d3d3d;
+	font-size: 20px;
+	line-height: 30px;
+	font-family: Bebas Neue;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+
+}
+
+.slider h2 {
+	color: #3d2514;
+	font-size: 30px;
+	line-height: 40px;
+	font-family: Alfa Slab One;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.slider p {
+	color: #3d3d3d;
+	font-size: 15px;
+	line-height: 25px;
+	font-family: Montserrat;
+	text-align: justify;
+}
+
+.slider .owl-theme .owl-nav.disabled+.owl-dots {
+	position: absolute;
+	bottom: 15%;
+}
+
+.slider .owl-theme .owl-dots .owl-dot span {
+	width: 15px;
+  	height: 15px;
+  	border-radius: 50%;
+}
+
+.slider .owl-theme .owl-dots .owl-dot.active span {
+  background: #f5c535;
+}
+
+/* Reservation Section CSS */
+
+.reservation {
+	width: 100%;
+	padding: 40px 0px 50px 0px;
+	background: url('../images/contactbg.png') center top no-repeat;
+	background-size: cover;
+}
+
+.reservation .title {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.reservation .title h6 {
+	color: #3d2514;
+	font-size: 20px;
+	line-height: 30px;
+	font-family: Bebas Neue;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.reservation .title h2 {
+	color: #3d2514;
+	font-size: 35px;
+	line-height: 45px;
+	font-family: Alfa Slab One;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.reservation .reservation-form {
+	margin-top: 50px;
+}
+
+.reservation .reservation-form .form-control {
+	padding: 15px 10px;
+	border: 1px solid #bebebe;
+}
+
+.reservation .reservation-form .form-control::placeholder {
+	color: #3d3d3d;
+	font-size: 20px;
+	line-height: 30px;
+	font-family: Bebas Neue;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.reservation .btn-primary {
+	border: 0px !important;
+	background: red;
+	color: #fff;
+	font-size: 15px;
+	line-height: 25px;
+	font-family: Alfa Slab One;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: all 0.5s linear;
+}
+
+.reservation .btn-primary:hover {
+	background: #ffc045;
+}
+
+/* Footer CSS */
+
+.footer {
+	width: 100%;
+}
+
+.footer .main-footer {
+	width: 100%;
+	padding: 80px 30px 0px 30px;
+	background: url("../images/footerbg.png") center top no-repeat;
+	background-size: cover;
+}
+
+
+.footer .main-footer .flogo-text {
+	color: #FFFFFF;
+	font-size: 15px;
+	line-height: 25px;
+	font-family: Montserrat;
+	text-align: justify;
+	margin: 30px 0px 0px 5px;
+	width: 80%;
+}
+
+.footer .main-footer .info {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.footer .main-footer .info p {
+	color: #FFFFFF;
+	font-size: 15px;
+	line-height: 25px;
+	font-family: Bebas Neue;
+	letter-spacing: 1px;
+}
+
+.footer .main-footer .info p img {
+	margin: 0px 10px 0px 0px;
+}
+
+.footer .main-footer .copyright {
+	width: 100%;
+	padding: 100px 0px 20px 0px;
+}
+
+.footer .main-footer .copyright p {
+	color: #FFFFFF;
+	font-size: 15px;
+	line-height: 25px;
+	font-family: Bebas Neue;
+	letter-spacing: 1px;
+}
+
+.footer .main-footer .copyright .social-icons {
+	text-align: right;
+	display: block;
+}
+
+.footer .main-footer .copyright .social-icons li {
+	list-style: none;
+	display: inline-block;
+}
+
+.footer .main-footer .copyright .social-icons a {
+	display: inline-block;
+	margin: 0px 10px;
+	color: #fff;
+	text-align: right;
+	width: 30px;
+	height: 30px;
+	background: #bf2222;
+	text-align: center;
+	border-radius: 50%;
+	transition: all 0.5s linear;
+}
+
+.footer .main-footer .copyright .social-icons a .fa {
+	font-size: 15px;
+	line-height: 30px;
+}
+
+.footer .main-footer .copyright .social-icons a:hover {
+	background: #ffc045;
+}
